@@ -1,0 +1,12 @@
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.Infra.deps.json
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.Infra.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\ref\Manager.Infra.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.Infra.pdb
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.csproj.AssemblyReference.cache
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.AssemblyInfoInputs.cache
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.AssemblyInfo.cs
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\ref\Manager.Infra.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.pdb

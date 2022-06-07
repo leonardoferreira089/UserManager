@@ -1,0 +1,12 @@
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\bin\Debug\net5.0\Manager.Service.deps.json
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\bin\Debug\net5.0\Manager.Service.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\bin\Debug\net5.0\ref\Manager.Service.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\bin\Debug\net5.0\Manager.Service.pdb
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\obj\Debug\net5.0\Manager.Service.csproj.AssemblyReference.cache
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\obj\Debug\net5.0\Manager.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\obj\Debug\net5.0\Manager.Service.AssemblyInfoInputs.cache
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\obj\Debug\net5.0\Manager.Service.AssemblyInfo.cs
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\obj\Debug\net5.0\Manager.Service.csproj.CoreCompileInputs.cache
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\obj\Debug\net5.0\Manager.Service.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\obj\Debug\net5.0\ref\Manager.Service.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Service\obj\Debug\net5.0\Manager.Service.pdb

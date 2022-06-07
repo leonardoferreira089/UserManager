@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QT2pmdHv6q+FjWfCWgz42OmE9pReW0DYJuD78EmzWSlC7jRG0gDaa1NYXJwM7bZ3H6pgDs+lbTZ4Ka8On6oz1Q==",
+  "dgSpecHash": "bt2KDf0j/UmO58NdcOZkmu8VwBsvTv2fMoTuCGeizXUTHMgTq9fJUKPKseGTIH3BPf//pnhxCcnZh9AfpNWrqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuário\\source\\repos\\UserManagerApi\\Manager.Domain\\Manager.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuário\\.nuget\\packages\\fluentvalidation\\11.0.2\\fluentvalidation.11.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

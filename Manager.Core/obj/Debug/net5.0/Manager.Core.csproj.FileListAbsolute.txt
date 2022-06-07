@@ -9,3 +9,4 @@ C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\Mana
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\Manager.Core.dll
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\ref\Manager.Core.dll
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\Manager.Core.pdb
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\Manager.Core.csproj.AssemblyReference.cache

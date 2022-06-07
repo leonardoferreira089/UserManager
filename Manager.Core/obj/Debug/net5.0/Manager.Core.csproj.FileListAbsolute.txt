@@ -1,0 +1,11 @@
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\bin\Debug\net5.0\Manager.Core.deps.json
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\bin\Debug\net5.0\Manager.Core.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\bin\Debug\net5.0\ref\Manager.Core.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\bin\Debug\net5.0\Manager.Core.pdb
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\Manager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\Manager.Core.AssemblyInfoInputs.cache
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\Manager.Core.AssemblyInfo.cs
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\Manager.Core.csproj.CoreCompileInputs.cache
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\Manager.Core.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\ref\Manager.Core.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Core\obj\Debug\net5.0\Manager.Core.pdb

@@ -1,4 +1,5 @@
-﻿using Manager.Domain.Validators;
+﻿using Manager.Domain.Exceptions;
+using Manager.Domain.Validators;
 using System;
 
 namespace Manager.Domain.Entities
@@ -46,9 +47,12 @@ namespace Manager.Domain.Entities
             if (!validation.IsValid)
             {
                 foreach (var error in validation.Errors)
+                {
                     _errors.Add(error.ErrorMessage);
+                }
+                    
 
-                throw new Exception("Alguns campos estão inválidos, por favor corrija-os." + _errors[0]);
+                throw new DomainException("Alguns campos estão inválidos, por favor corrija-os.", _errors);
             }
 
             return true;

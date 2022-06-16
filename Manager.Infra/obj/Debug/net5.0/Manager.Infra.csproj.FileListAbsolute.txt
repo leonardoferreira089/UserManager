@@ -10,3 +10,17 @@ C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Man
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.dll
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\ref\Manager.Infra.dll
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.pdb
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.Infra.runtimeconfig.json
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.Infra.runtimeconfig.dev.json
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.Domain.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.Domain.pdb
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.csproj.CopyComplete
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\obj\Debug\net5.0\Manager.Infra.genruntimeconfig.cache
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.API.deps.json
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.API.runtimeconfig.json
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.API.runtimeconfig.dev.json
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\appsettings.json
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.API.exe
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.API.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.Infra\bin\Debug\net5.0\Manager.API.pdb

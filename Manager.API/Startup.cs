@@ -1,4 +1,12 @@
 using AutoMapper;
+using Manager.API.ViewModels;
+using Manager.Domain.Entities;
+using Manager.Infra.Context;
+using Manager.Infra.Interfaces;
+using Manager.Infra.Repositories;
+using Manager.Service.DTO;
+using Manager.Service.Interfaces;
+using Manager.Service.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,7 +38,24 @@ namespace Manager.API
         {      
 
             services.AddControllers();
-          
+
+            #region AutoMapper
+            var autoMapperConfig = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<User, UserDTO>().ReverseMap();
+                cfg.CreateMap<CreateUserViewModel, UserDTO>().ReverseMap();
+                cfg.CreateMap<UpdateUserViewModel, UserDTO>().ReverseMap();
+            });
+            services.AddSingleton(autoMapperConfig.CreateMapper());
+            #endregion
+
+            #region DI
+            services.AddSingleton(d => Configuration);
+            services.AddDbContext<ManagerDbContext>(options =>
+                options.UseSqlServer(Configuration["ConnectionStrings:USER_MANAGER"]), ServiceLifetime.Transient);
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            #endregion
 
             services.AddSwaggerGen(c =>
             {

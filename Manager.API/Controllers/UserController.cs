@@ -6,8 +6,6 @@ using Manager.Service.DTO;
 using Manager.Service.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace Manager.API.Controllers
@@ -57,6 +55,16 @@ namespace Manager.API.Controllers
             try
             {
                 var allUsers = await _userService.GetAllAsync();
+
+                if (allUsers.Count == 0)
+                {
+                    return Ok(new ResultViewModel
+                    {
+                        Message = "Nenhum usuário encontrado",
+                        Sucess = true,
+                        Data = null
+                    });
+                }
 
                 return Ok(new ResultViewModel
                 {
@@ -235,6 +243,31 @@ namespace Manager.API.Controllers
             catch (DomainException ex)
             {
                 return Ok(Responses.DomainErrorMessage(ex.Message, ex.Errors));
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, Responses.ApplicationErrorMessage());
+            }
+        }
+
+        [HttpDelete]
+        [Route("/api/v1/users/remove/{id}")]
+        public async Task<IActionResult> RemoveUser(long id)
+        {
+            try
+            {
+                await _userService.RemoveUserAsync(id);
+
+                return Ok(new ResultViewModel
+                {
+                    Message = "Usuário removido com sucesso!",
+                    Sucess = true,
+                    Data = null
+                });
+            }
+            catch (DomainException ex)
+            {
+                return BadRequest(Responses.DomainErrorMessage(ex.Message, ex.Errors));
             }
             catch (Exception)
             {

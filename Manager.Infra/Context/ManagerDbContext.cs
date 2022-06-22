@@ -19,10 +19,10 @@ namespace Manager.Infra.Context
         {
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsnuilder)
-        {
-            optionsnuilder.UseSqlServer(@"Data Source=DESKTOP-9J6501O\SQLEXPRESS;Initial Catalog=USER_MANAGER;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-        }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsnuilder)
+        //{
+        //    optionsnuilder.UseSqlServer(@"Data Source=DESKTOP-9J6501O\SQLEXPRESS;Initial Catalog=USER_MANAGER;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        //}
 
         public virtual DbSet<User> Users { get; set; }
 

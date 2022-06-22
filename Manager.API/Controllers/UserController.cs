@@ -48,6 +48,66 @@ namespace Manager.API.Controllers
             {
                 return StatusCode(500, Responses.ApplicationErrorMessage());
             }
-        }                    
+        }
+
+        [HttpGet]
+        [Route("/api/v1/users/all-users")]
+        public async Task<IActionResult> GetAllUsers()
+        {
+            try
+            {
+                var allUsers = await _userService.GetAllAsync();
+
+                return Ok(new ResultViewModel
+                {
+                    Message = "Usuários encontrados com sucesso!",
+                    Sucess = true,
+                    Data = allUsers
+                });
+            }
+            catch (DomainException ex)
+            {
+                return BadRequest(Responses.DomainErrorMessage(ex.Message, ex.Errors));
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, Responses.ApplicationErrorMessage());
+            }
+        }
+
+        [HttpGet]
+        [Route("/api/v1/users/get/{id}")]
+        public async Task<IActionResult> GetById(long id)
+        {
+            try
+            {
+                var user = await _userService.GetByIdAsync(id);
+
+                if (user == null)
+                {
+                    return Ok(new ResultViewModel
+                    {
+                        Message = "Nenhum usuário foi encontrado com o ID informado.",
+                        Sucess = true,
+                        Data = user
+                    });
+                }
+
+                return Ok(new ResultViewModel
+                {
+                    Message = "Usuário encontrado com sucesso!",
+                    Sucess = true,
+                    Data = user
+                });
+            }
+            catch (DomainException ex)
+            {
+                return BadRequest(Responses.DomainErrorMessage(ex.Message, ex.Errors));
+            }
+            catch (Exception)
+            {
+                return StatusCode(500, Responses.ApplicationErrorMessage());
+            }
+        }
     }
 }

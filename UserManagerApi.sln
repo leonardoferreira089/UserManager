@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.API", "Manager.API\Manager.API.csproj", "{80FF202F-46BF-4C9B-871D-7ACA3DA2038F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager.API", "Manager.API\Manager.API.csproj", "{80FF202F-46BF-4C9B-871D-7ACA3DA2038F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Core", "Manager.Core\Manager.Core.csproj", "{9FFD795E-65B9-40B9-8D13-E0BCBB44F7C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager.Core", "Manager.Core\Manager.Core.csproj", "{9FFD795E-65B9-40B9-8D13-E0BCBB44F7C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Domain", "Manager.Domain\Manager.Domain.csproj", "{B15BD025-1DFC-4EE3-AE5F-ED546EB43992}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager.Domain", "Manager.Domain\Manager.Domain.csproj", "{B15BD025-1DFC-4EE3-AE5F-ED546EB43992}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Infra", "Manager.Infra\Manager.Infra.csproj", "{800F11B1-362B-4393-A8CC-0361E7EF0544}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager.Infra", "Manager.Infra\Manager.Infra.csproj", "{800F11B1-362B-4393-A8CC-0361E7EF0544}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager.Service", "Manager.Service\Manager.Service.csproj", "{FC0458E3-5AE3-4908-A78C-67C6EFD5C47C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Manager.Service", "Manager.Service\Manager.Service.csproj", "{FC0458E3-5AE3-4908-A78C-67C6EFD5C47C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

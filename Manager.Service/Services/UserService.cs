@@ -83,7 +83,10 @@ namespace Manager.Service.Services
             var userExists = await _userRepository.GetByIdAsync(userDTO.Id);
 
             if (userExists == null)
+            {
                 throw new DomainException("Não existe nenhum usuário com o id informado!");
+            }
+                
             var user = _mapper.Map<User>(userDTO);
             user.Validate();
             var userUpdated = await _userRepository.UpdateAsync(user);

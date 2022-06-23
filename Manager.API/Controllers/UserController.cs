@@ -4,6 +4,7 @@ using Manager.API.ViewModels;
 using Manager.Domain.Exceptions;
 using Manager.Service.DTO;
 using Manager.Service.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -23,6 +24,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         [Route("/api/v1/create-user")]
         public async Task<IActionResult> CreateUser([FromBody] CreateUserViewModel viewModel)
         {
@@ -49,6 +51,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("/api/v1/users/all-users")]
         public async Task<IActionResult> GetAllUsers()
         {
@@ -84,6 +87,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("/api/v1/users/get/{id}")]
         public async Task<IActionResult> GetById(long id)
         {
@@ -119,6 +123,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpPut]
+        [Authorize]
         [Route("/api/v1/users/update-user")]
         public async Task<IActionResult> UpdateUser([FromBody] UpdateUserViewModel userViewModel)
         {
@@ -146,6 +151,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("/api/v1/users/get-by-email")]
         public async Task<IActionResult> GetByEmail([FromQuery] string email)
         {
@@ -181,6 +187,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("/api/v1/users/search-by-email")]
         public async Task<IActionResult> SearchByEmail([FromQuery] string email)
         {
@@ -216,6 +223,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         [Route("/api/v1/users/search-by-name")]
         public async Task<IActionResult> SearchByName([FromQuery] string name)
         {
@@ -251,6 +259,7 @@ namespace Manager.API.Controllers
         }
 
         [HttpDelete]
+        [Authorize]
         [Route("/api/v1/users/remove/{id}")]
         public async Task<IActionResult> RemoveUser(long id)
         {

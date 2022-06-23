@@ -46,7 +46,6 @@ C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Micro
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\System.CodeDom.dll
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\System.Data.SqlClient.dll
@@ -76,3 +75,5 @@ C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Manag
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Manager.Service.pdb
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Manager.Domain.pdb
 C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Manager.Infra.pdb
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Usuário\source\repos\UserManagerApi\Manager.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
